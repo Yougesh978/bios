@@ -1,6 +1,6 @@
 # bios
-EASY
-Leap year using one line python code
+#EASY
+1) Leap year using one line python code
 This blog in one line python code helped me alot: https://blog.finxter.com/python-one-liners/
 f = lambda x: print("leap year" if ((x%400==0) or (x%100!=0) and (x%4==0)) else 'not leap year')
 ![image](https://user-images.githubusercontent.com/109974757/201533962-240b8ecc-596f-4304-8226-a212ea9c6586.png)
