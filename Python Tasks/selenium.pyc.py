@@ -5,10 +5,10 @@ import time
 
 PATH="C:\Program Files (x86)\chromedriver.exe"
 #filepath ="C:\Users\USER\OneDrive\Desktop\Pentest\shellscript.txt"
-driver = webdriver.Chrome(PATH)
+driver = webdriver.Chrome(PATH)   #to get the driver path
 
-driver.get("http://the-internet.herokuapp.com/upload")
-print(driver.title)
+driver.get("http://the-internet.herokuapp.com/upload")   #to connect the webite 
+print(driver.title)       #to print the tile of the website in output
 
 search = driver.find_element(By.ID, "file-upload")
 #search.clear()
@@ -23,6 +23,7 @@ upload.click()
 result=driver.find_element(By.TAG_NAME, "h3")
 print(result.text)
 
-time.sleep(15)
+time.sleep(15)   #to stop the for 15s before it runs the next command
 
 driver.quit()
+
