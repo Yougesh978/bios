@@ -1,5 +1,4 @@
 # Bios-Pentest
-## PYTHON
 ### EASY
 1) Leap year using one line python code
 This blog in one line python code helped me alot: https://blog.finxter.com/python-one-liners/ .
