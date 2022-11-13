@@ -1,0 +1,64 @@
+1)
+#!/bin/bash
+sum=0
+n="y"
+echo "enter first number"
+read num1
+echo "enter second number"
+read num2
+while [n = "y"]
+do
+echo "1.Addition"
+echo "2.Subtraction"
+echo "3.Multiplication"
+echo "4.Division"
+echo "Enter choice"
+read choice
+case $choice in           //like switch case in c++
+1)sum=$(echo " $num1 + $num2")  //$to get the value of smthg
+echo "Addition is =" $sum;;
+2)sum=$(echo "$num1 - $num2")
+echo "Sub is =" $sum;;
+3)sum=$(echo "$num1 * $num2")
+echo "Mul is =" $sum;;
+4)sum=$(echo "$num1 / $num2")
+echo "div is =" $sum;;
+*)echo "invalid choice"
+esac
+echo "want to calculate more???"
+read n
+if [ $n != "y" ]
+then
+exit
+done
+
+2)
+//shell srcipting for encoding
+//rot13 is a text scrambling method to prevent text from being accidentally read
+// A becomes N, B becomes O
+
+#!/bin/sh
+echo "Enter a word for encoding"
+sudo apt install bsdgames  //so i had to install bsdgames file to directly use rot13
+echo "$word" | rot13
+
+3)
+ #/bin/bash
+now=$(date +"%m_%d")
+mv ../file.txt ${now}.txt
+
+
+4)bubble sort
+for ((i = 0; i<5; i++))
+do
+for((j = 0; j<5-i-1; j++))
+do
+if [ ${arr[j]} -gt ${arr[$((j+1))]} ]  //main logic is just swapping adjcent elements...
+then
+temp_var=${arr[j]}
+arr[$j]=${arr[$((j+1))]}
+arr[$((j+1))]=$temp_var
+fi
+done
+done
+echo "sorted array : ${arr[*]}"
