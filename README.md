@@ -12,6 +12,10 @@ This blog in one line python code helped me alot: https://blog.finxter.com/pytho
 
 Refered several several blogs and websites which would fill the read me files just with the links so havent added any...but there a shot notes describing the functionality of each of the element used in the the code, as a beginner as making notes side by side
 >![image](https://user-images.githubusercontent.com/109974757/201534667-9f284ff6-afe4-4c89-9b43-e3b505a6095c.png)
+>
+>output:
+>![image](https://user-images.githubusercontent.com/109974757/201535083-5659cfd5-4cb5-49ac-ab12-b49822e069e0.png)
+
 
 
 ### MEDIUM
